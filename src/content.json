@@ -1,0 +1,189 @@
+{
+"users":[
+    {
+        "name": "Xi Jinping",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Xi_Jinping",
+        "knownFor": "Lider de china desde 2012 (Secretario general del partido comunista chino)",
+        "callsigns": ["CCA1438","CA1438"],
+        "reg": ["B-2447" , "B-2472"],
+        "planeModel" : "Boeing 747-400’s",
+        "estimatedValue" : "US$250 million",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=780010","https://globe.adsbexchange.com/?icao=7bc006"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2020-10-20",
+                "originAirport": "CKG",
+                "dateEnd": "2020-10-20",
+                "destinationAirport": "PEK",
+                "flightDurationMin": 120
+            },
+            "flight2":{
+                "dateStart": "2020-11-20",
+                "originAirport": "PEK",
+                "dateEnd": "2020-11-20",
+                "destinationAirport": "CKG",
+                "flightDurationMin": 120
+            }
+        },
+        "description": "Xi Jinping se convirtió en presidente de China en 2012 y trajo consigo una era de asertividad para las relaciones internacionales de China . Ha sido una figura central para cimentar a China como un superpoder mundial. Su gobierno ha sido marcado por tendencias autoritarias y represión de disidencias.",
+        "images":["profilePic.png","profilePic.png","profilePic.png","profilePic.png"]
+
+    },
+    
+    {
+        "name": "Vladimir Putin",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+        "knownFor": "Presidente de rusia",
+        "callsigns": ["RSD032"],
+        "reg": ["RA-96018"],
+        "planeModel" : "ILYUSHIN Il-96",
+        "estimatedValueUSD" : "Unknown",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=157712"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2022-10-20",
+                "originAirport": "VKO",
+                "dateEnd": "2022-10-20",
+                "destinationAirport": "KZN",
+                "flightDurationMin": 21
+
+            },
+            "flight2":{
+                "dateStart": "2022-11-20",
+                "originAirport": "KZN",
+                "dateEnd": "2022-11-20",
+                "destinationAirport": "VKO",
+                "flightDurationMin": 20
+            }
+        },
+        "description": "Vladimir Putin ha sido presidente de Russia en dos ocasiones (1999-2008) y (2012-actualidad) y fue tambien el sucesor de Boris Yeltsin. Entro al poder con promesas de reconstruir el poder de Rusia en el escenario global. Caracterizado por su posicion autoritaria y opresion de la oposicion. Durante su gobierno ha involucrado a russia en conflictos como el de la segunda guerra chechena, la guerra russo-georgiana , invasion de crimea, la guerra en siria y recientemente la invasion a ucrania.        ",
+        "images":["profilePic.png","profilePic.png","profilePic.png","profilePic.png"]
+    },
+
+    {
+        "name": "Narendra Modi",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Narendra_Modi",
+        "knownFor": "Primer ministro indio",
+        "callsigns": ["K7066"],
+        "reg": ["VT-ALV"],
+        "planeModel" : "Boeing B777 VVIP",
+        "estimatedValueUSD" : "Unknown",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=800585"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2022-05-26",
+                "originAirport": "VOBL",
+                "dateEnd": "2022-05-26",
+                "destinationAirport": "VIDP",
+                "flightDurationMin": 300
+
+            },
+            "flight2":{
+                "dateStart": "2022-05-29",
+                "originAirport": "DEL",
+                "dateEnd": "2022-05-29",
+                "destinationAirport": "BLR",
+                "flightDurationMin": 300
+            }
+        },
+        "description": "Narendra Modi es el primer ministro de India desde 2014. Dirige una de las economias mas grandes del mundo. Ha estado relacionado multiples veces con politicas de violencia religiosa contra musulmanes en India y es gran proponente del nacionalismo hindu. Recientemente ha estado involucrado en la region de Kashmira, lo cual ha llevado a escalar las tensiones con Pakistan.",
+        "images":["profilePic.png","profilePic.png","profilePic.png"]
+    },
+
+    {
+        "name": "Emanuel Macron",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Emmanuel_Macron",
+        "knownFor": "Presidente de Francia",
+        "callsigns": ["CTM1279"],
+        "reg": ["NA"],
+        "planeModel" : "Airbus A330 223",
+        "estimatedValueUSD" : "Unknown",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=3b76ae&lat=46.514&lon=16.759&zoom=4.2&showTrace=2022-04-07"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2022-04-22",
+                "originAirport": "EVX",
+                "dateEnd": "2022-04-22",
+                "destinationAirport": "BOO",
+                "flightDurationMin": 180
+
+            },
+            "flight2":{
+                "dateStart": "2022-04-22",
+                "originAirport": "BOO",
+                "dateEnd": "2022-04-22",
+                "destinationAirport": "EVX",
+                "flightDurationMin": 190
+            }
+        },
+        "description": "Emmanuel Macron es el presidente de Francia desde el año 2017. Líder de uno de los países más grandes de la unión europea, tiene gran poder sobre la política europea.",
+        "images":["profilePic.png","profilePic.png","profilePic.png"]
+    },
+
+    {
+        "name": "Olaf Scholz",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Olaf_Scholz",
+        "knownFor": "Primer ministro de Alemania",
+        "callsigns": ["GAF898"],
+        "reg": ["NA"],
+        "planeModel" : "Airbus A340-313X",
+        "estimatedValueUSD" : "Unknowns",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=3eb1a6&lat=50.862&lon=7.120&zoom=7.0&showTrace=2022-04-25"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2022-04-27",
+                "originAirport": "BER",
+                "dateEnd": "2022-04-27",
+                "destinationAirport": "CGN",
+                "flightDurationMin": 30
+
+            },
+            "flight2":{
+                "dateStart": "2022-04-26",
+                "originAirport": "IAD",
+                "dateEnd": "2022-04-26",
+                "destinationAirport": "CGN",
+                "flightDurationMin": 530
+            }
+        },
+        "description": "Es el canciller aleman desde 2021, sucesor de Angela Merkel. Como canciller de alemania tiene mucho poder respecto a politica europea , y representa a uno de los paises mas ricos del mundo.",
+        "images":["profilePic.png","profilePic.png","profilePic.png"]
+    },
+
+    {
+        "name": "Fumio Kishida",
+        "profilePicture" : "profilePic.png",
+        "wikipage": "https://en.wikipedia.org/wiki/Fumio_Kishida",
+        "knownFor": "Primer ministro Japones",
+        "callsigns": ["JL8010"],
+        "reg": [""],
+        "planeModel" : "777-300er",
+        "estimatedValueUSD" : "Unknown",
+        "adbsExchangeLinks" : ["https://globe.adsbexchange.com/?icao=867fac&lat=49.851&lon=157.188&zoom=3.1&showTrace=2022-04-25&timestamp=1650869495"],
+        "flightHistory" :{
+            "flight1":{
+                "dateStart": "2022-04-27",
+                "originAirport": "HKT",
+                "dateEnd": "2022-04-27",
+                "destinationAirport": "NRT",
+                "flightDurationMin":120
+
+            },
+            "flight2":{
+                "dateStart": "2022-04-29",
+                "originAirport": "NRT",
+                "dateEnd": "2022-04-29",
+                "destinationAirport": "LAX",
+                "flightDurationMin":1120
+            }
+        },
+        "description": "Primer ministro Japonés desde el año 2021. Japón junto con China y Corea del sur representan los tres poderes más grandes de Asia.",
+        "images":["profilePic.png","profilePic.png","profilePic.png"]
+    }
+]
+}
