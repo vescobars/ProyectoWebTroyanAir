@@ -1,4 +1,3 @@
-import Profile from "./profile";
 import "./ProfileDetail.css"
 import {forwardRef} from "react";
 const ProfileDetail = forwardRef(({user, setSelectedUser, detailRef}, ref) => {

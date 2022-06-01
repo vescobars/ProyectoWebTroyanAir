@@ -1,6 +1,6 @@
 import "./App.css"
 
-const ExploraListas = ({}) => {
+const ExploraListas = () => {
     return(
         <div className="yellow-card p-1">
             <h2 className="fw-bold ml-2 mt-3">Explora las listas</h2>

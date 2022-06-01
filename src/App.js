@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPlane} from "@fortawesome/free-solid-svg-icons";
@@ -7,11 +6,12 @@ import ExploraListas from "./ExploraListas";
 import {useEffect, useRef, useState} from "react";
 import content from "./content.json"
 import ProfilesCard from "./ProfilesCard";
-import profile from "./profile";
 import ProfileDetail from "./ProfileDetail";
 
+const users = content.users
+
 function App() {
-    const [users, setUsers] = useState(content.users)
+
     const [selectedUser, setSelectedUser] = useState(null)
 
     const detailRef = useRef(null)
