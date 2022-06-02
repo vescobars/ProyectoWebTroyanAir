@@ -8,11 +8,14 @@ import content from "./content.json"
 import ProfilesCard from "./ProfilesCard";
 import ProfileDetail from "./ProfileDetail";
 
-const users = content.users
+const allUsers = content.users
 
 function App() {
 
     const [selectedUser, setSelectedUser] = useState(null)
+    const [category, setCategory] = useState(null)
+
+    const users = allUsers.filter((user)=> category? user.categoria===category : true)
 
     const detailRef = useRef(null)
 
@@ -32,9 +35,9 @@ function App() {
 
             <div className="d-flex flex-md-row-reverse flex-column-reverse both-card-containers">
                 {!selectedUser && <div className="d-flex flex-column flex-wrap card-container">
-                    <ProfilesCard title="VolandoAhora" users={users} setSelectedUser={setSelectedUser}/>
+                    <ProfilesCard title="Volando Ahora" users={users} setSelectedUser={setSelectedUser}/>
                     <div className="d-flex justify-content-between three-card-layout">
-                        {users.slice(0, 3).map(e =>
+                        {users.filter(users => users.volando === true).slice(0, 3).map(e =>
                             <div className="" key={e.name} >
                                 <Profile isCard={true} user={e} setSelectedUser={setSelectedUser}/>
                             </div>)}
@@ -43,7 +46,7 @@ function App() {
                 </div>}
 
                 <div className="d-flex flex-column flex-wrap card-container mb-3">
-                    <ExploraListas/>
+                    <ExploraListas category={category} setCategory={setCategory}/>
                     <ProfilesCard title="Favoritos" users={users} setSelectedUser={setSelectedUser}/>
                     <div className="d-flex justify-content-between three-card-layout">
                         {users.slice(0, 3).map(e =>

@@ -1,0 +1,20 @@
+{
+    "categorias":[
+        {
+            "name": "Politicos",
+            "imagen": "/resources/Politicos.png"
+        },
+        {
+            "name": "Celebridades",
+            "imagen": "/resources/Celebridades.png"
+        },
+        {
+            "name": "Tecnologia",
+            "imagen": "/resources/Tecnologia.png"
+        },
+        {
+            "name": "Cantantes",
+            "imagen": "/resources/Cantantes.png"
+        }
+    ]
+}
